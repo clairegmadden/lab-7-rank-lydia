@@ -50,3 +50,23 @@ mwu_kermit
 ```
 
 There was no significant difference in ranks for male and female respondents (W = 1.55, p = 0.4, alpha = 0.05 (use in line referencing))
+
+
+
+ITS CLAIRE AGAIN!!
+
+Next question is..
+
+Is there a significant change in Kermit rankings before and after his Bren talk?
+Wilcoxon signed rank for paired two sample comparison of ranks - add argument paired = TRUE
+
+```{r}
+#H0: there is not a significant difference in ranks for pre and post talk scores
+#HA: there is a significant difference
+
+wsr_kermit <- wilcox.test(kermit$Score.pre, kermit$Score.post, paired = TRUE)
+
+wsr_kermit 
+
+```
+There is no significant difference in ranks for pre and post talk kermit scores (statistical summary here...)
