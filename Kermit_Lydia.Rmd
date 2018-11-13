@@ -1,0 +1,12 @@
+---
+title: "Kermit Perceptions Rank Based Test"
+author: "Lydia Bleifuss"
+date: "11/13/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Lydia's first message, excellllent. 
