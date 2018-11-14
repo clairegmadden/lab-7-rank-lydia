@@ -70,3 +70,8 @@ wsr_kermit
 
 ```
 There is no significant difference in ranks for pre and post talk kermit scores (statistical summary here...)
+
+
+
+
+
